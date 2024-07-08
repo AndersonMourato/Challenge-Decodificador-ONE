@@ -1,0 +1,108 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF1FA;
+    
+    height: 100vh;
+}
+    
+article{
+    padding: 50px 30px 30px 30px;
+    font-size: 1.1rem;
+    width: 50vw;
+    height: 80vh;
+}
+
+article textarea{
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    color: #757fb2;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;  
+}
+
+button{
+    background-color: #757fb2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 50px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: #515a84;
+}
+    
+aside{
+    padding: 50px 30px 30px 30px;
+    width:20vw;
+    border-radius: 25px;
+    height: 80vh;
+    color: white;
+    background-color: #757fb2;
+}
+
+#resp {
+    word-wrap: break-word;
+}
+
+@media (max-width: 380px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    article{
+        width: 50vw;
+        height: auto;
+    }
+
+    article textarea{
+        width: auto;
+        height: 150px;
+        background-color: transparent;
+        color: #757fb2;
+        border: none;
+        outline: none;
+        font-size: 1.1rem;
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: column;  
+    }
+
+    button{
+        font-size: 1rem;
+        margin: 5px;
+    }
+
+    aside{
+        padding: 50px 30px 30px 30px;
+        width:70vw;
+        border-radius: 25px;
+        height: auto;
+        color: white;
+        background-color: #757fb2;
+    }
+
+
+}
